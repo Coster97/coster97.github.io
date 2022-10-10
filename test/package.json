@@ -6,7 +6,6 @@
   "type": "module",
   
   "scripts": {
-    "test": "node web.js",
     "start": "node ./web.js"
   },
   "author": "",
