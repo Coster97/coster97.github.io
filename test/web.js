@@ -9,7 +9,7 @@ const app = express();
 app.set("views", __dirname + "/views")
 //app.set("views", process.cwd() + "/views")
 app.set("view engine", "pug")
-app.get("/", (req, res) => {
+app.get("/main", (req, res) => {
     res.render("main")
 })
 
