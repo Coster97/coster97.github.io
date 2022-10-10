@@ -1,0 +1,22 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon —exec babel-node src/web.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4"
+  }
+}
