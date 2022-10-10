@@ -1,5 +1,6 @@
 import express from "express";
 
+
 const __dirname = "/home/hosting_users/dmsrud1501222/apps/dmsrud1501222_devstudy2022";
 const app = express();
 
