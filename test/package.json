@@ -1,11 +1,10 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
   "main": "web.js",
   "type": "module",
-  
   "scripts": {
+    "test": "node web.js",
     "start": "node ./web.js"
   },
   "author": "",
@@ -14,5 +13,7 @@
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "pug": "^3.0.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
